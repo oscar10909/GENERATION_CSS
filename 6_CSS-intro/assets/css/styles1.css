@@ -1,0 +1,40 @@
+.Encabezado {
+
+    /*tamaño de fuente
+    medidas comunes: px, %, em, rem*/
+    font-size: 72px;
+    /*Color de fuente*/
+    color: rgb(13, 4, 17);
+    /*Alinear Texto*/
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #098829;
+}
+
+/*Especificidad*/
+.cursiva{
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.ama{
+    color: rgb(235, 233, 117);
+    font-size: 24px;
+    font-family: Arial;
+}
+
+.naranja{
+    color: rgb(231, 127, 29);
+    font-size: 24px;
+    font-family: Consolas;
+}
+
+.rosa{
+    color: rgb(233, 62, 176);
+    font-size: 24px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
