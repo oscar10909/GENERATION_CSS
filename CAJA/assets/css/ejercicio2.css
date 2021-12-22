@@ -1,0 +1,58 @@
+body{
+    background-color: seagreen;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em #333;
+    /*Sombras en letra
+      text-shadow: 0.1em 0.1em 0.05em #333}
+      text-shadow: 0.1em 0.1em 0.2em black}
+      color: white; text-shadow: black 0.1em 0.1em 0.2em
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+      h3.b {text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87}
+      h3.c {text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F, 0 0 0.2em #87F}*/
+}
+
+.caja{
+    color: snow;
+    margin-top: 20px;
+    padding: 20px; /*margen interno*/
+}
+
+.izq{
+    margin-left: 350px;
+    text-align: right; 
+    background-color: rgb(231, 146, 34);
+    border: 5px solid rgb(180, 85, 21);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.der{
+    margin-right: 350px;
+    text-align: left; 
+    background-color: rgb(196, 73, 24);
+    border: 5px solid rgb(160, 55, 7);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.centro{
+    color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding:  5px;
+    background-color: rgb(255, 255, 255);
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.azul{
+    color: rgb(255, 255, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding:  5px;
+    background-color: rgb(29, 133, 202);
+    border: 10px dashed rgb(6, 32, 179);
+}
