@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.contenido-principal{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenido-principal .encabezado{
+    background-color: gray;
+    color:white;
+    padding: 10px 5 px;
+}
+
+.contenido-principal .contenido{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contenido-principal .contenido-imagen{
+    float: left;
+}
+
+.contenido-principal .contenido-texto{
+    margin-left: 150px;
+}
+
+.contenido-principal .contenido-texto p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/* .clearfix{
+    float: none;
+    clear: both;
+} */
+
+#bloque{
+    /*display: inline; Ahora elemente se comporta como bloque  inline-block*/
+    background-color: rgb(107, 106, 106);
+    padding-left: 10px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 90%;
+    position: relative;
+    left: 50px;
+}
+
+
+.text-html{
+    display: grid;
+    grid-template-columns: 100px 900px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    text-align: right;
+    width: 900px;
+    position: relative;
+    left: 200px;
+}
+
+.text-css{
+    display: grid;
+    grid-template-columns: 100px 900px;
+
+    text-align: center;
+    width: 900px;
+    position: relative;
+    left: 220px;
+}
+
+.text-css img{
+    
+    width: 100px;
+}
+
+.text-html img{
+    width: 100px;
+}
+
+.formato-rojo{
+    color: red;
+}
+
+.formato-relleno{
+    color: black;
+}

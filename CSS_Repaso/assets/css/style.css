@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #e48b8b;
+    height: 50px;
+}
+
+.menu ul{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu .elemento{
+    display: inline;
+    margin: 0 20px;
+    /*margin: sup der inf izq;*/
+    padding: 10px;
+}
+
+.menu .elemento:hover{
+    background-color: yellow;
+}
+
+.elemento a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none; /*quita los estilos que se aplican por defecto al texto de enlace*/
+    line-height: 50px; /*modifica posicion de letra, usamo mismo dato que heigh*/
+    font-family: 'Rubic', sans-serif;
+    transition: color 0.3s;
+}
+
+.elemento a:hover{
+    color: gray;
+    font-size: 30px;
+}
